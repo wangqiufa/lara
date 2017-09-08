@@ -30,18 +30,25 @@ class ComposerStaticInitb284feb585655203a3bbdc371cec2b11
         ),
         'I' => 
         array (
+            'Illuminate\\View\\' => 16,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Session\\' => 19,
             'Illuminate\\Routing\\' => 19,
             'Illuminate\\Pipeline\\' => 20,
             'Illuminate\\Http\\' => 16,
+            'Illuminate\\Filesystem\\' => 22,
             'Illuminate\\Events\\' => 18,
+            'Illuminate\\Database\\' => 20,
             'Illuminate\\Contracts\\' => 21,
             'Illuminate\\Container\\' => 21,
         ),
         'C' => 
         array (
             'Carbon\\' => 7,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -82,6 +89,10 @@ class ComposerStaticInitb284feb585655203a3bbdc371cec2b11
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'Illuminate\\View\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/view',
+        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/support',
@@ -102,9 +113,17 @@ class ComposerStaticInitb284feb585655203a3bbdc371cec2b11
         array (
             0 => __DIR__ . '/..' . '/illuminate/http',
         ),
+        'Illuminate\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/filesystem',
+        ),
         'Illuminate\\Events\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/events',
+        ),
+        'Illuminate\\Database\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/database',
         ),
         'Illuminate\\Contracts\\' => 
         array (
@@ -117,6 +136,10 @@ class ComposerStaticInitb284feb585655203a3bbdc371cec2b11
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
